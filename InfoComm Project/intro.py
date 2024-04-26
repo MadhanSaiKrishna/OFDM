@@ -6,9 +6,9 @@ class TextIntroduction(Scene):
         self.play(Write(intro_text))
         self.play(FadeOut(intro_text))
         self.wait(2) 
-        intro_madhan = Text("Madhan Sai Krishna\n   2023102030\nManim & Script", font_size=32, color= WHITE)
-        intro_praveen = Text("Nethavath Praveen\n   2023102013\nPresentation", font_size = 30, color= WHITE)
-        intro_dinesh = Text("Nagalla Dinesh\n   202310xxxx\nPresentation", font_size = 30, color= WHITE)
+        intro_madhan = Text("Madhan Sai Krishna\n   2023102030", font_size=32, color= WHITE)
+        intro_praveen = Text("Nethavath Praveen\n   2023102013", font_size = 30, color= WHITE)
+        intro_dinesh = Text("Nagalla Dinesh\n   202310xxxx", font_size = 30, color= WHITE)
         
         self.play(Write(intro_madhan))
         self.wait(1)
